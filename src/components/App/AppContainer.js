@@ -9,13 +9,13 @@ body{
 }
 `;
 
-function App() {
+const AppContainer = () => {
   return (
     <>
       <Global />
-      <h1>Hello</h1>
+      <h1>AppContainer</h1>
     </>
   );
-}
+};
 
-export default App;
+export default AppContainer;
