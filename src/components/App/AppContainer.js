@@ -1,6 +1,7 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
 import { reset } from "styled-reset";
+import AppPresenter from "./AppPresenter";
 
 const Global = createGlobalStyle`
 ${reset};
@@ -14,6 +15,7 @@ const AppContainer = () => {
     <>
       <Global />
       <h1>AppContainer</h1>
+      <AppPresenter />
     </>
   );
 };
