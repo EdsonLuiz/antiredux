@@ -14,7 +14,7 @@ const AppContainer = () => {
   return (
     <>
       <Global />
-      <h1>AppContainer</h1>
+
       <AppPresenter />
     </>
   );
